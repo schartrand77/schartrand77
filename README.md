@@ -23,12 +23,12 @@ With a passion for [Your Field], I have dedicated my career to [Brief Descriptio
 ### Project One: ech0base Plex Server
 **Description:** A personal collection of media all in one place
 **Technologies Used:** | docker | python | linux |
-**Link:** plex.seventysevenstars.com
+**Link:** https://plex.seventysevenstars.com
 
 ### Project Two: Overs33rr
 **Description:** Request Movies and TV Shows and add them directly to Plex.
 **Technologies Used:** | docker | python | linux |
-**Link:** requests.seventysevenstars.com
+**Link:** https://requests.seventysevenstars.com
 
 ## Music
 - **Title:** [Publication Title]
