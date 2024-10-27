@@ -8,29 +8,29 @@ Hello, and thank you for visiting my digital portfolio. I am Stephen Chartrand, 
 - [About Me](#about-me)
 - [Skills](#skills)
 - [Projects](#projects)
-- [Publications](#publications)
+- [Music](#music)
 - [Contact](#contact)
 
 ## About Me
 With a passion for [Your Field], I have dedicated my career to [Brief Description of Your Professional Background]. My journey began at [Your Alma Mater], where I earned a degree in [Your Degree]. Over the years, I have honed my skills and expanded my knowledge through various roles and projects.
 
 ## Skills
-- **Programming Languages:** [List of Languages]
-- **Tools & Technologies:** [List of Tools]
-- **Other Skills:** [List of Other Skills]
+- **Programming Languages:** | python | ruby | javascript |
+- **Tools & Technologies:** | linux | mac | x86 | DAWs+ |
+- **Other Skills:** | musician | creator | producer |
 
-## Projects
-### Project One: [Project Title]
-**Description:** [Brief Description of the Project]
-**Technologies Used:** [Technologies]
-**Link:** [URL to Project]
+## Homelab
+### Project One: ech0base Plex Server
+**Description:** A personal collection of media all in one place
+**Technologies Used:** | docker | python | linux |
+**Link:** plex.seventysevenstars.com
 
-### Project Two: [Project Title]
-**Description:** [Brief Description of the Project]
-**Technologies Used:** [Technologies]
-**Link:** [URL to Project]
+### Project Two: Overs33rr
+**Description:** Request Movies and TV Shows and add them directly to Plex.
+**Technologies Used:** | docker | python | linux |
+**Link:** requests.seventysevenstars.com
 
-## Publications
+## Music
 - **Title:** [Publication Title]
 **Publication:** [Name of the Publication]
 **Date:** [Date]
@@ -38,9 +38,9 @@ With a passion for [Your Field], I have dedicated my career to [Brief Descriptio
 
 ## Contact
 Feel free to reach out to me for collaborations, questions, or just to say hello:
-- **Email:** [Your Email]
-- **LinkedIn:** [Your LinkedIn URL]
-- **GitHub:** [Your GitHub URL]
+- **Email:** stephenchartrand77@gmail.com
+- **LinkedIn:** http://linkedin.com/in/stephen-chartrand-43348643
+- **GitHub:** https://github.com/schartrand77/schartrand77
 
 Thank you for stopping by!
 
