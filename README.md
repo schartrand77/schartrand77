@@ -13,7 +13,7 @@ Hello, and thank you for visiting my digital portfolio. I am Stephen Chartrand, 
 - [Christmas List](#christmas-list)
 
 ## Christmas List
-Take a look at my [Christmas List](https://schartrand77.github.io/christmas-list) for this year!
+Take a look at my [Christmas List](https://schartrand77.github.io/christmas-list1) for this year!
 
 ## About Me
 With a passion for [Your Field], I have dedicated my career to [Brief Description of Your Professional Background]. My journey began at [Your Alma Mater], where I earned a degree in [Your Degree]. Over the years, I have honed my skills and expanded my knowledge through various roles and projects.
