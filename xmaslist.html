@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen's Christmas List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+            color: #333;
+            font-size: 1.5em; /* Reduced font size */
+        }
+        .word {
+            display: flex;
+            gap: 4px; /* Space between letters */
+            margin: 0 8px; /* Space between words */
+        }
+        .letter {
+            font-size: 1.8em;
+            font-weight: bold;
+            animation: colorChange 1.5s infinite;
+        }
+        
+        @keyframes colorChange {
+            0% { color: red; }
+            33% { color: green; }
+            66% { color: blue; }
+            100% { color: red; }
+        }
+
+        /* Rest of your CSS */
+        .list-item {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: slideUp 0.8s ease-out forwards;
+        }
+        .list-item:nth-child(1) { animation-delay: 0.3s; }
+        .list-item:nth-child(2) { animation-delay: 0.5s; }
+
+        .list-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .thumbnail {
+            width: 60px;
+            height: 60px;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .item-info {
+            text-align: left;
+        }
+        .item-name {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .priority {
+            font-size: 0.9em;
+            color: #ff6347;
+        }
+        .link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <span class="word">
+                <span class="letter">S</span>
+                <span class="letter">t</span>
+                <span class="letter">e</span>
+                <span class="letter">p</span>
+                <span class="letter">h</span>
+                <span class="letter">e</span>
+                <span class="letter">n</span>
+                <span class="letter">'</span>
+                <span class="letter">s</span>
+            </span>
+            <span class="word">
+                <span class="letter">C</span>
+                <span class="letter">h</span>
+                <span class="letter">r</span>
+                <span class="letter">i</span>
+                <span class="letter">s</span>
+                <span class="letter">t</span>
+                <span class="letter">m</span>
+                <span class="letter">a</span>
+                <span class="letter">s</span>
+            </span>
+            <span class="word">
+                <span class="letter">L</span>
+                <span class="letter">i</span>
+                <span class="letter">s</span>
+                <span class="letter">t</span>
+            </span>
+        </h1>
+
+        <div class="list-item">
+            <img src="https://www.bestbuy.ca/en-ca/product/samsung-75-4k-uhd-hdr-qled-tizen-os-smart-tv-qn75q60dafxzc-2024/17857409" alt="TV Thumbnail" class="thumbnail">
+            <div class="item-info">
+                <p class="item-name">🎁 Best Buy Gift Cards towards TV</p>
+                <p class="priority">Priority: High</p>
+                <a href="https://www.bestbuy.ca/en-ca/product/samsung-75-4k-uhd-hdr-qled-tizen-os-smart-tv-qn75q60dafxzc-2024/17857409" target="_blank" class="link">Link to Item</a>
+            </div>
+        </div>
+        
+        <div class="list-item">
+            <img src="https://ca.store.ui.com/ca/en/category/all-wifi/products/u7-pro" alt="Ubiquiti Thumbnail" class="thumbnail">
+            <div class="item-info">
+                <p class="item-name">🎁 Ubiquiti U7 Pro</p>
+                <p class="priority">Priority: Medium</p>
+                <a href="https://ca.store.ui.com/ca/en/category/all-wifi/products/u7-pro" target="_blank" class="link">Link to Item</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
