@@ -12,6 +12,9 @@ Hello, and thank you for visiting my digital portfolio. I am Stephen Chartrand, 
 - [Contact](#contact)
 - [Christmas List](#christmas-list)
 
+## seventysevenstars 3D Printing
+[seventysevenstars](https://schartrand77.github.io/77stars)
+
 ## Christmas List
 Take a look at my [Christmas List](https://schartrand77.github.io/christmas-list1) for this year!
 
